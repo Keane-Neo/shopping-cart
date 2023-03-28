@@ -5,6 +5,7 @@ export const Products = [
     text: "Apple Airpods Max",
     price: 699,
     type: "headphone",
+    quantity: 1,
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const Products = [
     text: "Sony XM4",
     price: 399,
     type: "headphone",
+    quantity: 1,
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const Products = [
     text: "Sony XM5",
     price: 499,
     type: "headphone",
+    quantity: 1,
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const Products = [
     text: "Creative Zen Hybrid",
     price: 99,
     type: "headphone",
+    quantity: 1,
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export const Products = [
     text: "Apple Airpods Pro 2",
     price: 199,
     type: "earphone",
+    quantity: 1,
   },
   {
     id: 6,
@@ -40,5 +45,6 @@ export const Products = [
     text: "Samsung Galaxy Buds Pro",
     price: 159,
     type: "earphone",
+    quantity: 1,
   },
 ];

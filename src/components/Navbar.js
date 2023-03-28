@@ -5,11 +5,14 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 const Navbar = ({ activateCart }) => {
   return (
     <div className="flex justify-between sticky top-0 bg-gray-700 text-white">
-      <img
-        src="./images/audio_logo.jpg"
-        alt="logo"
-        className="h-20 border-2 border-gray-700"
-      />
+      <a href="/">
+        <img
+          src="./images/audio_logo.jpg"
+          alt="logo"
+          className="h-20 border-2 border-gray-700"
+        />
+      </a>
+
       <div className="flex justify-evenly">
         <a href="/" className="m-2">
           Home
@@ -17,7 +20,11 @@ const Navbar = ({ activateCart }) => {
         <a href="/products" className="m-2">
           Products
         </a>
-        <FontAwesomeIcon icon={faCartShopping} onClick={activateCart} />
+        <FontAwesomeIcon
+          icon={faCartShopping}
+          onClick={activateCart}
+          className="m-2"
+        />
       </div>
     </div>
   );
