@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "//keane-neo.github.io/shopping-cart/static/css/main.84311c4c.css",
-    "main.js": "//keane-neo.github.io/shopping-cart/static/js/main.00a1fc49.js",
-    "index.html": "//keane-neo.github.io/shopping-cart/index.html",
-    "main.84311c4c.css.map": "//keane-neo.github.io/shopping-cart/static/css/main.84311c4c.css.map",
-    "main.00a1fc49.js.map": "//keane-neo.github.io/shopping-cart/static/js/main.00a1fc49.js.map"
+    "main.css": "/shopping-cart/static/css/main.84311c4c.css",
+    "main.js": "/shopping-cart/static/js/main.00a1fc49.js",
+    "index.html": "/shopping-cart/index.html",
+    "main.84311c4c.css.map": "/shopping-cart/static/css/main.84311c4c.css.map",
+    "main.00a1fc49.js.map": "/shopping-cart/static/js/main.00a1fc49.js.map"
   },
   "entrypoints": [
     "static/css/main.84311c4c.css",
